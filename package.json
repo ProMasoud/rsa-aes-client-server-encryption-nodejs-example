@@ -8,8 +8,11 @@
     "node-rsa": "^0.4.2",
     "socket.io": "^1.7.2"
   },
-  "scripts":{
+  "scripts": {
     "generate": "node init",
     "start": "node index.js"
+},
+"engines": {
+    "node": "10.x"
   }
 }
